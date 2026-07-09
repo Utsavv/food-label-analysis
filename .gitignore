@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Local data
+backend/labelwatch.db
+backend/*.db
+backend/artifacts/
+artifacts/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Env
+.env
+.env.local
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
